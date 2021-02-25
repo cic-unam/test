@@ -1,7 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
-	"name": "Untitled",
+	"name": "SIGES",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -9,18 +9,59 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Model",
+			"name": "Arquitectura",
 			"ownedElements": [
 				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_type": "UMLComponentDiagram",
+					"_id": "AAAAAAF32e/eCa4yQ/c=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Main",
-					"defaultDiagram": true
+					"name": "Contexto"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF32fDVBK42gr8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Usuario",
+					"documentation": "# Usuario del sistema\n\nPersona que utilizará el sistema una vez puesto en producción"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF32fG9wa47WuY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Diseñador",
+					"documentation": "# Diseñador gráfico\n\nPersona encargada de diseñar la interfaz gráfica del sistema."
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF32fKIg65Bfg8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Programador",
+					"documentation": "# Programador de computadoras\n\nPersona encaergada de implementar el sistema como un producto digital."
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAF32fQnYK5I4WU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Arquitecto",
+					"documentation": "# Arquitecto de datos\n\nPersona encargada de elaborar la información que proporciona el sistema."
 				}
-			]
+			],
+			"documentation": "# Arquitectura\n\nEn este modelo se describe la arquitectura del sistema. Se incluyen 3 diagramas: Contexcto, contenedores y componentres.\n\nAunque se utiliza el modelo C4 para describir la arquitectura la notación es UML."
 		}
-	]
+	],
+	"documentation": "# SIGES\n## Modelado del sistema\n\nDiagramas *UML* que describen la arquitectura, el diseño y la base de datos del sistema.",
+	"author": "CIC, Sistemas",
+	"company": "UNAM",
+	"copyright": "CC",
+	"version": "1.0"
 }
